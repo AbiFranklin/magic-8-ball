@@ -1,0 +1,7 @@
+body {
+  background-image: url("imgs/star-bck.png"), linear-gradient(black,
+    #53346d);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
