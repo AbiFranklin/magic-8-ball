@@ -56,6 +56,10 @@ button {
   width: 200px;
 }
 
+button:hover {
+  box-shadow: 5px 5px 5px black;
+}
+
 span {
   color: goldenrod;
   font-family: 'Fontdiner Swanky', cursive;
