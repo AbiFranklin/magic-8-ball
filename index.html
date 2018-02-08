@@ -21,13 +21,13 @@
     var randomNumberforListOfAnswers = randomNumber * listOfAnswers.length;
     var randomIndex = Math.floor(randomNumberforListOfAnswers);
     var answerText = listOfAnswers[randomIndex];
-    $( "#circle" ).effect( "shake", {times:3}, 500);
+    $( "#circle" ).effect( "shake", {times:8}, 1000);
     $( "#answer").animate({'opacity': 0}, 500, function () {
       $(" #answer").text(answerText)
     }).animate({'opacity': 1}, 800);
   });
-  });
-  </script>
+});
+</script>
 </head>
 <body>
   <h1><center>Magic Eight Ball Knows All!</center></h1>
